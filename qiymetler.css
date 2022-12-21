@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.qr-code {
+  width: 50px;
+  height: 50px;
+}
+.navbar {
+  background: linear-gradient(to right, rgb(93, 95, 239), rgb(52, 53, 166));
+}
+.navbar-nav {
+  font-weight: 400;
+}
+.nav-item {
+  margin-left: 30px;
+}
+.nav-item:hover{
+    color: rgb(238, 233, 226);
+    font-size: 20px;
+}
+.btn {
+  color: white;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.sign-up-btn {
+  border: 1px solid white;
+  margin-left: 15px;
+}
+.sign-in-btn {
+  background-color: rgb(76, 76, 167);
+}
+.header-area {
+  background: linear-gradient(to right, rgb(93, 95, 239), rgb(52, 53, 166));
+  height: 250px;
+  width: 100%;
+}
+/* .container{
+    position: fixed;
+} */
+.header-area h2 {
+  position: relative;
+  top: 100px;
+}
+.header-img {
+  background: url("https://scan.az/cdn/images/about-qr.svg");
+  position: relative;
+  top: 184px;
+  height: 20px;
+}
+.price-container {
+  background-color: rgb(250, 248, 248);
+}
+.prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+.prices-1,
+.prices-2,
+.prices-3 {
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px #f1e9ed;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+}
+.fa-check{
+    margin-right:10px;
+    color:#6bb2d3;
+}
+.prices ul {
+  list-style: none;
+}
+.price-header {
+  text-align: center;
+  margin-top: 30px;
+}
+.prices span {
+  font-size: 50px;
+}
+.price-header p {
+  font-weight: bold;
+}
+.price-button {
+  border: none;
+  background-color: #ef5da8;
+  color: white;
+  border-radius: 10px;
+  margin-left: 50px;
+  padding: 10px 110px;
+}
+.prices ul {
+  margin-top: 20px;
+  line-height: 2.2;
+  margin-left: 20px;
+}
+.footer-img {
+  height: 15px;
+
+  position: relative;
+  top: 40px;
+  width: 90%;
+  margin: 0px auto;
+  background-image: url("https://scan.az/cdn/images/qr.svg");
+}
+footer {
+  height: 80px;
+  margin-top: 80px;
+  width: 90%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+footer p {
+  display: inline-block;
+}
+.fa-youtube {
+  font-size: 14px;
+  padding:6px;
+}
+@media (max-width: 768px) {
+  .prices {
+    display: block;
+    width: 100%;
+  }
+  .prices-1,
+  .prices-2,
+  .prices-3 {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .footer-left img{
+      width:20px;
+      height:20px;
+  }
+  footer{
+      justify-content: space-evenly;
+      font-size:16px;
+      width:95%;
+  }
+  .price-header h5{
+      position: relative;
+      top:10px;
+  }
+  .footer-left{
+      margin:0;
+  }
+  .footer-img{
+      width:95%;
+      
+  }
+  
+}
