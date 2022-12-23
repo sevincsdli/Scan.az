@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.qr-code {
+  width: 50px;
+  height: 50px;
+}
+.navbar {
+  background: linear-gradient(to right, rgb(93, 95, 239), rgb(52, 53, 166));
+  position:fixed;
+}
+.navbar-nav {
+  font-weight: 400;
+}
+.nav-item {
+  margin-left: 30px;
+}
+.nav-item:hover {
+  color: rgb(238, 233, 226);
+  font-size: 20px;
+}
+.sign-up-btn {
+  border: 1px solid white;
+  margin-left: 15px;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(76, 76, 167);
+}
+.sign-in-btn {
+  padding: 5px 20px;
+  background-color: rgb(76, 76, 167);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.header-area {
+  background: linear-gradient(to right, rgb(93, 95, 239), rgb(52, 53, 166));
+  height: 250px;
+  /* width: 100%; */
+}
+.header-img {
+  background-image: url("https://scan.az/cdn/images/banner.png");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  
+}
+.hdr-img-text {
+  position: relative;
+  left:60%;
+  top:14%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.header-img h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.hdr-img-text button {
+  position: relative;
+  right:36%;
+  font-size: 60px;
+  font-weight: 550;
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin: 20px auto;
+  border-radius: 25px;
+  padding: 20px 140px;
+  font-weight: bold;
+}
+.advantage-section {
+  margin-top:50px;
+  display: flex;
+       align-items: center;
+  justify-content: center; 
+}
+.adv-text h4,
+p {
+  margin-top: 20px;
+}
+.adv-text h4 {
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.adv-text p {
+  line-height: 1.5;
+}
+.advantage {
+  border: 1px solid pink;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.adv-text {
+  text-align: center;
+  position: relative;
+  top: 100%;
+}
+.a-1 {
+  background-image: url("https://scan.az/cdn/images/advantage1.png");
+}
+.a-2 {
+  background-image: url("https://scan.az/cdn/images/advantage2.png");
+}
+.a-3 {
+  background-image: url("https://scan.az/cdn/images/advantage3.png");
+}
+.a-4 {
+  background-image: url("https://scan.az/cdn/images/advantage4.png");
+}
+.adv-img-top {
+  /* position: relative;
+  left: 3%; */
+  margin-top: 40px;
+}
+.adv-img-end {
+  position: relative;
+  left: 3%;
+  margin-top: 170px;
+}
+/* .swipper {
+  width: 80%;
+} */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.menu-section{
+  width:84%;
+  margin:50px auto;
+  border-radius:20px;
+  height:460px;
+  background: linear-gradient(to right, rgb(93, 95, 239), rgb(52, 53, 166));
+  display: flex;
+  flex-direction: row;
+}
+.menu-text{
+width:90%;
+margin:60px auto;
+height:440px;
+position: relative;
+top:14px; 
+display: flex;
+flex-direction: row;
+color:white;
+}
+.menu-left span{
+letter-spacing: 1px;
+color:rgb(230, 26, 138);
+font-size:22px;
+font-weight: 24px;
+}
+.menu-left p{
+  font-weight: bold;
+  margin-top:80px;
+}
+.slide-number{
+  font-size: 20px;
+  position: relative;
+  top:15%;
+}
+.instruction{
+  font-size:32px;
+  text-decoration: underline;
+  
+}
+.menu-img{
+  width:470px;
+  height:400px;
+  margin-left:60px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://scan.az/cdn/images/welcome_AZ.png");
+}
+.adv-top-img{
+  background-image: url("https://scan.az/cdn/images/qr.svg");
+  width: 80%;
+  margin:0px auto;
+  height:30px;
+  background-repeat: no-repeat;
+}
+.footer-section{
+  position: relative;
+  top:100%;
+}
+.footer-img {
+  height: 15px;
+  width: 90%;
+  margin: 0px auto;
+  background-image: url("https://scan.az/cdn/images/qr.svg");
+}
+footer {
+  height: 80px;
+  margin-top: 80px;
+  width: 90%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+footer p {
+  display: inline-block;
+}
+.fa-youtube {
+  font-size: 14px;
+  padding:6px;
+}
+.footer-left p{
+  
+  margin-bottom:20px;
+}
+@media (max-width: 768px) {
+  header nav ul {
+    display: none;
+  }
+
+  .sign-in,
+  .sign-up {
+    position: relative;
+    left: 0%;
+
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(82, 82, 218);
+  }
+  .header-img {
+    background-image: url("https://scan.az/cdn/images/banner.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .hdr-img-text {
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 13%;
+    left: 0;
+  }
+  .header-img h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 550;
+    position: relative;
+    left: 10%;
+  }
+  .header-img button {
+    color: white;
+    font-size: 60px;
+    font-weight: 550;
+    position: relative;
+    left: 8%;
+  }
+  .hdr-img-text button {
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 20px 140px;
+    font-weight: bold;
+  }
+.instruction{
+  position: relative;
+  bottom:150px;
+}
+.slide-number{
+  position: relative;
+  bottom:70px;}
+  .menu-text{
+    display: block;
+
+  }
+  .menu-section{
+    width:96%;
+    height:630px;
+  }
+  .menu-left{
+display: block;
+  }
+  .menu-img{
+width:400px;
+height:350px;
+background-position:center;
+position: relative;
+bottom:100px;
+right:60px;
+  }
+  .advantage-section{
+    display: block;
+  }
+ .advantage{
+   display: flex;
+   flex-direction: column;
+transform: translate(50%,50%);
+ 
+}
+
+
+}
